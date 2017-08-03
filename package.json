@@ -4,8 +4,7 @@
   "description": "Chat App for movietwv website",
   "main": "index.js",
   "scripts": {
-    "start": "node server/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/server.js"
   },
   "author": "Vinsent Chitekwe",
   "license": "ISC",
