@@ -4,7 +4,9 @@
   "description": "Chat App for movietwv website",
   "main": "index.js",
   "scripts": {
-    "start": "node server/server.js"
+    "start": "node server/server.js",
+    "test": "mocha server/**/*.test.js",
+    "test-watch": "nodemon --exec 'npm test'"
   },
   "engines": {
     "node": "6.10.0"
@@ -14,5 +16,10 @@
   "dependencies": {
     "express": "^4.15.3",
     "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.5.0",
+    "nodemon": "^1.11.0"
   }
 }
